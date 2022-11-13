@@ -1,0 +1,14 @@
+name: refresh_token_manager
+description: A package to call refresh token only once for multiple token expired responses.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=2.14.0 <3.0.0'
+
+dependencies:
+  synchronized: '>=3.0.0 <4.0.0'
+  dio: '>=4.0.0 <5.0.0'
+
+dev_dependencies:
+  lints: '>=1.0.1'
